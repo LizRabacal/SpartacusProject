@@ -1,0 +1,28 @@
+.container{
+    background-color: #ECC94B;
+    font-size: 30px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    border-radius: 90%;
+    align-items: center;
+}
+
+.container:hover{
+    opacity: 85%;
+
+}
+
+@media only screen and (max-width: 600px) {
+/*     .container{
+    background-color: #ECC94B;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    border-radius: 90%;
+    align-items: center;
+} */
+}

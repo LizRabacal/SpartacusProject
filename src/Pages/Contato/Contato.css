@@ -1,0 +1,117 @@
+.redes {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border-right: 2px solid #ECC94B;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.redes #btn1 {
+    width: 40%;
+    margin-bottom: 3%;
+    padding: 3%;
+
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+
+}
+
+
+.redes .btn2 {
+    display: flex;
+    margin-bottom: 3%;
+    width: 40%;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    border-radius: 5px;
+
+}
+
+.btn2 span {
+    margin-left: 7%;
+    font-size: 19px;
+
+    color: white
+}
+
+.formctt {
+
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.formctt p {
+    color: white;
+
+}
+
+
+@media (max-width: 590px) {
+
+
+    .contato {
+        flex-direction: column;
+    }
+
+    .formctt input {
+        width: 350px !important;
+    }
+
+
+    .formctt textarea{
+        width: 350px !important;
+    }
+    .redes {
+        border-right: none;
+        margin-bottom: 4%;
+
+    }
+
+    .redes .btn2 {
+         width: 250px;
+        margin-top: 5%;
+
+    } 
+
+    .btn2 button {
+        width: 48px !important;
+    }
+
+    #btn1{
+        width: 250px !important;
+    }
+
+}
+
+@media (max-width: 1050px) {
+    .formctt input{
+        width: 350px;
+    }
+    .formctt textarea{
+        width: 350px;
+    }
+    #btn1{
+        width: 240px !important;
+    }
+        .redes .btn2 {
+            width: 250px;
+            margin-top: 5%;
+    
+        }
+}

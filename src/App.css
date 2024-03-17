@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Inter:wght@300&family=Lato&family=PT+Sans&family=Roboto+Condensed:wght@200&display=swap');
+
+* {}
+
+#nav {
+    font-family: "Inter", sans-serif !important;
+    margin: 0 !important;
+    position: relative !important;
+    z-index: 1001 !important;
+}
+
+#footer{
+     position: absolute;
+    width: 100%;
+    z-index: 1008 !important;
+}
+.footer span{
+    color: white;
+}
+.footeer{
+display: flex;
+
+}
+
+.info{
+padding: 4%;
+
+}
+
+.localiza2{
+    display: flex;
+    font-size: 25px;
+    color: grey;
+    margin-top: 5%;
+    align-items: center;
+
+}
+#footer .foto{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+#footer{
+        border-top: 2px solid grey;
+
+    margin-top: 3%;
+}
+.footer .info{
+    width: 50%;
+}
+
+.footer{
+    display: flex;
+    height: 90px;
+    justify-content: center;
+        align-items: center;
+        font-size: 19px;
+
+}
+
+.active {
+
+
+    transform: scale(1.3);
+}
+
+body {
+    /*    background: url('../public/backgrond.jpg') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important; */
+    background: rgb(25, 25, 25) !important;
+    font-family: "Lato", sans-serif !important;
+    color: white;
+}
+
+.MODALIDADES {
+    margin: 6%;
+}
+
+.app {
+
+    height: 100%;
+}
+
+#cardm {
+    margin: 5%;
+}
+
+/* Cor da barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Largura da barra de rolagem */
+    background-color: grey;
+    /* Cor de fundo da barra de rolagem */
+}
+
+/* Cor do indicador de rolagem */
+::-webkit-scrollbar-thumb {
+    background-color: #ECC94B;
+    /* Cor do indicador de rolagem */
+    border-radius: 5px;
+    /* Bordas arredondadas do indicador de rolagem */
+}
+
+#titulo {
+    display: flex;
+    color: #ECC94B;
+    display: flex;
+    margin: 4%;
+    font-size: 38px;
+    border-bottom: 2px solid #ECC94B;
+
+
+    padding: 1%;
+}
+
+
+a {
+    white-space: nowrap;
+}
+
+
+#anav {
+    position: relative;
+}
+
+#anav::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #ECC94B;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+#anav:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+#titulo2 {
+
+    background: rgb(50, 50, 50);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo2 h1 {
+    font-size: 40px;
+    color: #ECC94B;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+.homepage {
+    position:absolute;
+   top: 0;
+    left: 0;
+    width: 100%;
+
+    z-index: 999 !important;
+
+}
+
+.Beneficios {
+    width: 100%;
+
+}
+
+.beneficios1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre h1 {
+    font-size: 35px;
+    font-weight: 300;
+    display: flex;
+    width: 100%;
+    color: #ECC94B !important;
+    display: flex;
+    justify-content: center;
+
+}
+
+.prev,
+.next {
+    color: white;
+    display: flex;
+    cursor: pointer;
+    font-size: 30px;
+    align-items: center;
+}
+
+.prev:hover,
+.next:hover {
+    opacity: 60%;
+}
+
+.sobre strong {
+    color: grey;
+    white-space: nowrap;
+}
+
+.sobre span {
+    color: grey;
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+.sobre h1 {
+    text-align: center;
+    color: grey;
+    
+}
+
+.sobre {
+        color: grey;
+
+    padding: 8%;
+    width: 100%;
+}
+
+.slider-container {
+    padding: 3%;
+}
+
+.swiper-pagination>.swiper-pagination-bullet {}
+
+#item {
+    width: 500PX !important;
+    height: 300px;
+}
+
+#item img {
+    width: 100%;
+    /* Garante que a imagem ocupe toda a largura da div */
+    height: 100%;
+    /* Garante que a imagem ocupe toda a altura da div */
+    object-fit: cover;
+    /* Isso fará com que a imagem cubra toda a área da div */
+    position: absolute;
+    /* Posiciona a imagem em relação à div */
+    top: 0;
+    /* Alinha a imagem ao topo da div */
+    left: 0;
+    /* Alinha a imagem à esquerda da div */
+
+}
+
+#valor a {
+    color: grey;
+    text-decoration: underline;
+}
+
+#valor a:hover {
+    opacity: 70%;
+}
+
+#valor {
+    font-size: 20px;
+}
+
+#valor h1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5%;
+    color: #ECC94B;
+}
+
+.seila{
+    background: #262626
+
+ !important;
+}
+
+.tabela {
+    width: 100%;
+    padding: 4%;
+}
+
+.tabela2 {}
+
+
+#custom-scrollbar::-webkit-scrollbar {
+    width: 10px;
+    /* Largura da barra de rolagem */
+}
+
+#custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgb(68, 68, 68);
+    /* Cor do pino da barra de rolagem */
+    border-radius: 5px;
+    height: 5px !important;
+    /* Borda arredondada do pino */
+}
+
+#custom-scrollbar::-webkit-scrollbar-track {
+    background: rgb(244, 243, 243);
+    /* Cor do fundo da barra de rolagem */
+}
+
+.topico {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.tet h2 {
+    font-weight: bolder;
+    width: 100%;
+}
+
+.tet {
+    margin-left: 2%;
+}
+
+
+
+.aboutus h1 {
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    width: 100%;
+    color: #ECC94B;
+    margin: 2%;
+
+}
+
+.aboutus {
+    display: flex;
+    padding: 4%;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus p {
+    color: grey;
+    font-size: 25px;
+}
+
+.aboutus img {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.di1 {
+    padding: 4%;
+
+}
+
+.aex {
+    width: 100%;
+    background: url('../public/IMG_6190.jpeg');
+    background-position: center;
+    display: flex;
+    color: grey;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.outradiv {
+    padding: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.outradiv h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.dois {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media only screen and (max-width: 600px) {
+.Beneficios {
+    width: 100%;
+
+}
+
+.beneficios1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre h1 {
+    font-size: 25px;
+    font-weight: 300;
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.sobre h1 {
+    text-align: center;
+    color: black;
+    
+}
+
+.sobre {
+    padding: 4%;
+    width: 100%;
+}
+
+.sobre span{
+    font-size: 15px;
+    width: 100%;
+}
+#sg{
+grid-template-columns:repeat(auto-fill, minmax(200px, 1fr)) ;
+}
+
+.sobre svg{
+width:130px;
+
+}
+
+.di1 {
+    padding: 4%;
+
+}
+
+
+
+
+
+
+.aboutus h1 {
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    width: 100%;
+    color: #ECC94B;
+    margin: 2%;
+
+}
+
+.aboutus {
+    display: flex;
+    padding: 4%;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus p {
+    color: grey;
+    font-size: 16.5px;
+}
+
+.aboutus img {
+    width: 60%;
+    display: none;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+
+    .sample-slider {
+        width: 100% ;
+    }
+
+    .swiper-slide {
+        margin-right: 7px ;
+    }
+
+
+
+    .sample-slider {
+}
+#items{
+    width: 70% !important;
+}
+
+.aex {
+    width: 100%;
+    background: url('../public/IMG_6190.jpeg');
+    background-position: center;
+    display: flex;
+    color: grey;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.outradiv {
+    padding: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.outradiv h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+
+.outradiv button{
+    width: 70% !important;
+}
+
+#valor a {
+    color: #ECC94B;
+    text-decoration: underline;
+}
+
+#valor a:hover {
+    opacity: 70%;
+}
+
+#valor {
+    font-size: 20px;
+}
+
+#valor h1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#footer .foto{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    display: none;
+}
+}

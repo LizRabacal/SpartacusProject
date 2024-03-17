@@ -1,0 +1,152 @@
+.banner {
+    display: flex;
+    margin: 0 !important;
+
+    height: 860px;
+
+
+}
+
+.div2 h1 {
+    color: #ECC94B;
+    font-size: 60px;
+    font-weight: 700;
+    display: flex;
+    width: 100%;
+}
+
+
+.div2 p {
+    color: grey;
+    font-size: 25px;
+}
+
+.div1,
+.div2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.div2 {
+    flex-direction: column;
+    padding: 4%;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.div1 {
+    background-image: url('../../public/IMG_6190.jpeg');
+    background-size: cover;
+}
+
+.div12 {
+    width: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#btnb {
+    color: #ECC94B;
+    text-transform: uppercase;
+}
+
+#btnb:hover {
+    background-color: rgb(36, 35, 35);
+}
+
+.buttons {
+    display: flex;
+    margin: 5%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .banner {
+    display: flex;
+    margin: 0 !important;
+
+    height: 700px;
+
+
+}
+
+.div2 h1 {
+    color: #ECC94B;
+    font-size: 38px;
+    font-weight: 700;
+    display: flex;
+    width: 100%;
+    margin-top: 25%;
+}
+
+
+.div2 p {
+    color: grey;
+    font-size: 21px;
+}
+
+
+.div2 {
+        width: 100% !important;
+            background-image: url('../../public/IMG_6190.jpeg');
+padding: 0;
+
+    flex-direction: column;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.div21{
+padding: 4%;
+    height: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.div1 {
+    background-image: url('../../public/IMG_6190.jpeg');
+    display: none;
+    background-size: cover;
+}
+
+.div12 {
+    width: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#btnb {
+    color: #ECC94B;
+    text-transform: uppercase;
+}
+
+#btnb:hover {
+    background-color: rgb(36, 35, 35);
+}
+
+.buttons {
+     display: flex;
+         flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button{
+        font-size: 12px !important;
+
+}
+
+    
+}

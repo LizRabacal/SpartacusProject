@@ -1,0 +1,39 @@
+#tabelagrade{
+
+}
+
+.divgrade td{
+    color: rgb(220, 220, 220);
+}
+
+.divgrade th{
+    color: #ECC94B;
+}
+
+.divgrade a{
+    text-decoration: underline;
+}
+
+.divgrade{
+/*     background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.valor{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    padding: 3%;
+    width: 90%;
+    
+}
+
+.valor h1{
+    color: #ECC94B;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.valor p{
+    color: rgb(161, 160, 160);
+    font-size: 25px;
+}
